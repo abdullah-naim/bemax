@@ -1,0 +1,95 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu {
+        margin-top: -11px;
+    }
+    .icon-area {
+        margin-top: -11px;
+    }
+    .hire-us-area-content p {
+        font-size: 20px;
+    }
+    .play-area img {
+        width: 100%;
+    }
+    .cta-area {
+        margin-top: 20px;
+    }
+    .working-area-top-content.text-center {
+        margin-top: -13%;
+    }
+    .working-area-top-content h4::before {
+        left: 47%;
+    }
+    .latest-area-top-content2 {
+        margin-top: -7px;
+    }
+    .btn {
+        margin-left: -31px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .slider-area {
+        margin-top: -18px;
+    }
+    .hire-us-area-content p {
+        font-size: 15px;
+    }
+    .hire-us-btn a {
+        padding: 15px 33px;
+    }
+    .play-area img {
+        width: 100%;
+    }
+    .cta-area {
+        margin-top: 20px;
+    }
+    .working-area-top-content h4::before {
+        left: 46%;
+    }
+    .btn {
+        background: #4272d7;
+        padding: 6px;
+        margin-left: 152px;
+        margin-top: -64px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .hire-us-area-content p {
+        font-size: 7px;
+    }
+    .icon-box-area-bg {
+        width: 100%;
+    }
+    .cta-area {
+        margin-top: 20px;
+    }
+    .content11111-icon-area {
+        margin-top: 2px;
+    }
+    .footer-area {
+        height: 1825px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
